@@ -66,7 +66,25 @@ SELECT * FROM executions;
 
 ### Count records
 SELECT count(*) FROM jobs;
+
 SELECT count(*) FROM events;
 
 ### View execution history
 SELECT status, summary FROM executions;
+
+### Salary v002
+SELECT external_id, salary_min, salary_max FROM jobs WHERE external_id = 'v002';
+
+### Location v001
+SELECT external_id, city, state FROM jobs WHERE external_id = 'v001';
+
+### Event e004
+SELECT external_id, start_time, online, price_cents, student_price_cents 
+FROM events 
+WHERE external_id = 'e004';
+
+### Salary v003
+SELECT external_id, salary_min, salary_max FROM jobs WHERE external_id = 'v003';
+
+### Status v015
+SELECT external_id, active FROM jobs WHERE external_id = 'v015';

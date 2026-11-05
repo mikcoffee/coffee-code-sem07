@@ -1,9 +1,8 @@
-
 import re
 from decimal import Decimal
 from datetime import datetime
 
-_MONEY = re.compile(r"R$\s*([\d.,]+)")
+_MONEY = re.compile(r"R\$\s*([\d.,]+)")
 _LONG_DATE = re.compile(r"(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4}),\s*(\d{1,2})h(\d{2})")
 
 MONTHS = {
