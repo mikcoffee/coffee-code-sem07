@@ -1,0 +1,6 @@
+# Edit with:  crontab -e
+#
+# minute  hour  day-of-month  month  day-of-week   command
+#
+# Every day, at 7 AM:
+0 7 * * *     ./execute_pipeline.sh

@@ -1,5 +1,6 @@
 .venv/
 data/
+dados/
 logs/
 __pycache__/
 *.pyc

@@ -88,3 +88,7 @@ SELECT external_id, salary_min, salary_max FROM jobs WHERE external_id = 'v003';
 
 ### Status v015
 SELECT external_id, active FROM jobs WHERE external_id = 'v015';
+
+## Scheduling
+- Execution script: `scheduling/execute_pipeline.sh`
+- Cron expression tested with croniter: `0 7 * * *` (every day at 7 AM)
